@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tabela</title>
+	<style>
+		body {
+			background-color: #DDDDDD;
+		}
+		table {
+			font-family: sans-serif;
+			width: 48%;
+			margin: auto;
+		}
+		td, th {
+			text-align: center;
+			padding: 12px;
+			width: 200px;
+		}
+		button {
+			border: 2px solid;
+			border-radius: 5px;
+			background-color: white;
+		}
+		.green {
+			color: #60CB71;
+			font-weight: 700px;
+			padding: 8px 14px;
+		}
+		.purple {
+			color: #5F5DAC;
+			font-weight: 700px;
+			padding: 8px 14px;
+		}
+		.blue {
+			color: #1F81D3;
+			font-weight: 700px;
+			padding: 8px 14px;
+		}
+		.green:hover {
+			background-color: #60CB71;
+			color: white;
+		}
+		.purple:hover {
+			background-color: #5F5DAC;
+			color: white;
+		}
+		.blue:hover {
+			background-color: #1F81D3;
+			color: white;
+		}
+		table {
+			border-collapse: separate;
+			border-spacing: 8px 0;
+		}
+		tr:nth-child(even) {
+			background-color: #F7F7F7;
+		}
+		tr:nth-child(odd) {
+			background-color: white;
+		}
+		tr:first-child th:nth-child(1) {
+			border-top: 3px solid #60CB71;
+			padding: 25px;
+			font-size: 30px;
+		}
+		tr:first-child th:nth-child(2) {
+			border-top: 3px solid #5F5DAC;
+			padding: 25px;
+			font-size: 30px;
+		}
+		tr:first-child th:nth-child(3) {
+			border-top: 3px solid #1F81D3;
+			padding: 25px;
+			font-size: 30px;
+		}
+		tr:last-child td:nth-child(1) {
+			border-bottom: 3px solid #60CB71;
+			padding: 30px;
+		}
+		tr:last-child td:nth-child(2) {
+			border-bottom: 3px solid #5F5DAC;
+			padding: 30px;
+		}
+		tr:last-child td:nth-child(3) {
+			border-bottom: 3px solid #1F81D3;
+            padding: 30px;
+		}
+	</style>
+</head>
+<body onselectstart="return false">
+	<table>
+		<tr>
+			<th style="color: #60CB71">Basic</th>
+			<th style="color: #5F5DAC">Standard</th>
+			<th style="color: #1F81D3">Premium</th>
+		</tr>
+		<tr>
+			<td style="background-color: #60CB71; font-weight: bold; font-size: 32px; color: white;">$99</td>
+			<td style="background-color: #5F5DAC; font-weight: bold; font-size: 32px; color: white;">$99</td>
+			<td style="background-color: #1F81D3; font-weight: bold; font-size: 32px; color: white;">$99</td>
+		</tr>
+		<tr>
+			<td>Option</td>
+			<td>Option</td>
+			<td>Option</td>
+		</tr>
+		<tr>
+			<td>Option</td>
+			<td>Option</td>
+			<td>Option</td>
+		</tr>
+		<tr>
+			<td>Option</td>
+			<td>Option</td>
+			<td>Option</td>
+		</tr>
+		<tr>
+			<td>Option</td>
+			<td>Option</td>
+			<td>Option</td>
+		</tr>
+		<tr>
+			<td>Option</td>
+			<td>Option</td>
+			<td>Option</td>
+		</tr>
+		<tr>
+			<td>Option</td>
+			<td>Option</td>
+			<td>Option</td>
+		</tr>
+		<tr>
+			<td><button class="green">Purchase</td>
+			<td><button class="purple">Purchase</td>
+			<td><button class="blue">Purchase</td>
+		</tr>
+		<!-- <tr>
+			<td><button style="color: #60CB71; font-weight: 700; padding: 8px 14px;">Purchase</td>
+			<td><button style="color: #5F5DAC; font-weight: 700; padding: 8px 14px;">Purchase</td>
+			<td><button style="color: #1F81D3; font-weight: 700; padding: 8px 14px;">Purchase</td>
+		</tr> -->
+	</table>
+</body>
+</html>
